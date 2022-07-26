@@ -1,0 +1,245 @@
+@font-face {
+    font-family:'Circular Std' ;
+    src: url(../fonts/circular-std-medium-500.ttf);
+}
+@font-face {
+    font-family:'Playfair Display';
+    src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+:root{
+    --unit: 8.333333333333334;
+}
+*{
+    box-sizing: border-box;
+    /* color: rgb(77, 74, 74); */
+    font-family: 'Playfair Display';
+}
+.container{
+    margin: auto;
+    /* border: var(--border); */
+    width: 990px;
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col_1{
+    width: calc(var(--unit)*1%);
+ 
+}
+.col_2{
+    width: calc(var(--unit)*2%);
+
+}
+.col_3{
+    width: calc(var(--unit)*3%);  
+}
+.col_4{
+    width: calc(var(--unit)*4%);
+ 
+}
+.col_5{
+    width: calc(var(--unit)*5%);
+
+}
+.row .col_6{
+    width: calc(var(--unit)*6%);
+
+}
+.col_7{
+    width: calc(var(--unit)*7%);
+
+}
+.col_8{
+    width: calc(var(--unit)*8%);
+
+}
+.col_9{
+    width: calc(var(--unit)*9%);
+
+}
+.col_10{
+    width: calc(var(--unit)*10%);
+
+}
+.col_11{
+    width: calc(var(--unit)*11%);
+ 
+}
+.col_12{
+    width: calc(var(--unit)*12%);
+  
+}
+.cross{
+    display: none;
+    opacity: 0;
+}
+.butt{
+    background-color: white;
+    float: right;
+    margin-right: 10px;
+    border-color: rgba(255, 255, 255, 0);
+    visibility: none;
+    opacity: 0;
+    position: absolute;
+    top: 20px;
+    right : 20px;
+
+}
+.butt i{
+    font-size: 22px;
+
+}
+.my_head{
+    box-shadow: 0px 5px 5px rgba(124, 119, 119, 0.753);
+    
+}
+.small_text{
+    font-family: 'Circular Std';
+    font-size: 13px;
+    color: white;
+}
+.black{
+    color: rgb(77, 74, 74);
+}
+.white{
+    color: white;
+    text-decoration: none;
+}
+/* .logo{
+    border: 1px solid red;   
+} */
+.navigation .bottom .nav_active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.ar_down{
+    width: 10px;
+}
+.logo img{
+    padding: 10px;
+    width: 123px; 
+}
+.navigation .top ul{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.navigation .top ul li{
+    list-style-type: none;
+}
+.text{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(31, 57, 78);
+}
+.navigation .top ul li a{
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Circular Std';
+    font-size: 12px;
+    color: rgb(77, 74, 74);
+}
+.navigation .top ul li a:hover{
+    color: blueviolet;
+}
+.navigation .bottom ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navigation .bottom ul li{
+    list-style-type: none;
+}
+
+.navigation .bottom ul li a{
+    text-decoration: none;
+    font-family: 'Circular Std';
+    padding: 10px;
+    color: rgb(77, 74, 74);
+} 
+main{
+    background-position-x: center;
+    text-align: center;
+    color: rgb(77, 74, 74);
+}
+.mid_text{
+    font-size: 27px;
+    padding: 10px;
+    margin: 0;
+}
+.footer_p{
+    margin-top: 0;
+}
+.main_button{
+    text-transform: uppercase;
+    font-family: 'Circular Std';
+    font-size: 12px;
+    margin: auto;
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-bottom: 220px;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.image{
+    display: inline-block;
+    max-width: 100%;
+    
+}
+footer{
+    background-image: url("./images/footer_bg.png");
+    color: white;
+    position: relative;
+    
+}
+.footer_text{
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+.footer_text .links{
+    
+}
+.footer_button{
+    text-transform: uppercase;
+    font-family: 'Circular Std';
+    padding: 10px 20px;
+    background-color: rgba(240, 248, 255, 0);
+    border-color: white;
+    color: white;
+
+}
+.box-image{
+    width: 300px;
+    display: inline-block;
+    margin: auto;
+    position: absolute;
+    top: -200px;
+}
+.input{
+    padding: 10px;
+}
+.rows{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.follow_us ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.follow_us ul li{
+    list-style-type: none;
+    padding-right: 20px;
+}
+.center{
+    justify-content: center;
+}
+address{
+    font-style: normal;
+    font-family: 'Circular Std';
+}
